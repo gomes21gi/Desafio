@@ -49,7 +49,7 @@ app.get('/items', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Servidor rodando na porta http://localhost:${port}`);
+    console.log("Servidor rodando na porta http://localhost:${port}");
 });
 
 // o desafio de construir as operações GET getById, PUT, *DELETE* e PATCH na rota /items do Express. 
